@@ -12,13 +12,7 @@
 
 ---
 
-### 💻 System Diagnostics (About)
-- 🎓 B.Tech in IT @ **NSUT, New Delhi** (2024-2028)
-- 🏆 **Flipkart GRiD 8.0** Semi-Finalist (Software Development)
-- 🧠 Solved **1550+** algorithmic problems (C++, Java, Python)
-- ⚡ Building scalable backend systems & data pipelines.
 
----
 
 ### 🐍 Autonomous Contribution Snake
 *A greedy algorithm eating my daily commits.*
@@ -32,7 +26,7 @@
 
 ---
 
-### 📊 Matrix Stats
+### Matrix Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=transmogrify-cell&show_icons=true&bg_color=0D1117&title_color=00FF41&text_color=00FF41&icon_color=00FF41&border_color=00FF41" alt="GitHub Stats" height="170"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=transmogrify-cell&theme=dark&background=0D1117&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&sideLabels=00FF41&dates=00FF41&stroke=00FF41&border=00FF41" alt="GitHub Streak" height="170"/>
