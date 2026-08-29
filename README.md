@@ -103,8 +103,7 @@
   }
   .sb-nav a:hover{ color:var(--ink-soft); }
   .sb-nav a .plus{ color:var(--yellow); font-weight:700; -webkit-text-stroke:0.5px var(--ink); transition:transform .2s ease; }
-  .sb-nav a:hover .plus{ transform: rotate(90deg); } /* UI Touch: Rotate plus on hover */
-  .sb-foot{ margin-top:auto; font-family:var(--mono); font-size:10px; color:var(--ink-faint); line-height:1.8; }
+  .sb-nav a:hover .plus{ transform: rotate(90deg); }
 
   .navtoggle{ display:none; }
 
@@ -162,30 +161,33 @@
     content:''; position:absolute; inset:0;
     background:linear-gradient(100deg, var(--bg) 0%, transparent 22%);
   }
-  .dot{ position:absolute; width:6px; height:6px; border-radius:50%; background:var(--cream); box-shadow:0 0 0 1px rgba(0,0,0,0.15); }
-  .dot-line{ position:absolute; background:rgba(244,241,232,0.55); height:1px; transform-origin:left center; }
-
+  
   .hero-cta{
     position:absolute; right:32px; bottom:32px; background:var(--yellow); padding:20px 24px; width:190px; z-index:3;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: 1px solid var(--ink);
   }
-  .hero-cta:hover { transform: translate(-4px, -4px); box-shadow: 6px 6px 0 var(--ink); } /* UI Touch: Hard Shadow */
+  .hero-cta:hover { transform: translate(-4px, -4px); box-shadow: 6px 6px 0 var(--ink); }
   
   .hero-cta .k{ font-family:var(--display); font-weight:700; font-size:1.35rem; text-transform:uppercase; line-height:1.05; color:var(--ink); }
   .hero-cta a{ display:inline-block; margin-top:14px; font-family:var(--mono); font-size:11px; letter-spacing:0.04em; text-decoration:underline; color:var(--ink); }
 
+  /* ---- SNAKE COMMIT WIDGET ---- */
   .thumb-card{
-    position:absolute; left:0; bottom:0; width:230px; display:flex; border-top:1px solid var(--border-strong); border-right:1px solid var(--border-strong);
+    position:absolute; left:0; bottom:0; width:240px; display:flex; border-top:1px solid var(--border-strong); border-right:1px solid var(--border-strong);
     background:var(--bg); z-index:3;
   }
   .thumb-img{
-    width:88px; height:88px; background:var(--dark); flex-shrink:0; padding:8px;
-    display:grid; grid-template-columns:repeat(7,1fr); grid-auto-rows:1fr; gap:2px;
+    width:88px; height:88px; background:var(--dark); flex-shrink:0; padding:6px;
+    display:grid; grid-template-columns:repeat(7,1fr); grid-template-rows:repeat(7,1fr); gap:2px;
   }
-  .thumb-img i{ background:var(--yellow); border-radius:1px; transition: opacity 0.3s ease; }
-  .thumb-img i:hover { opacity: 1 !important; background: #fff; } /* UI Touch: Commit hover */
-  
+  /* Snake Game Grid Cell Styles */
+  .thumb-img i{ background:var(--yellow); border-radius:1px; transition:none; }
+  .thumb-img i.snake { opacity: 0.8 !important; background: var(--yellow) !important; }
+  .thumb-img i.head { opacity: 1 !important; background: var(--cream) !important; box-shadow: 0 0 4px var(--cream); }
+  .thumb-img i.food { opacity: 1 !important; background: #FF4444 !important; animation: blink 0.5s infinite alternate; }
+  @keyframes blink { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0.3; transform: scale(0.85); } }
+
   .thumb-text{ padding:10px 12px; font-family:var(--mono); font-size:9.5px; color:var(--ink-soft); line-height:1.6; }
   .thumb-text b{ color:var(--ink); display:block; font-size:10px; }
 
@@ -215,9 +217,9 @@
   .xp-panel{ 
     display:grid; grid-template-columns:260px 1fr; gap:40px; border:1px solid var(--ink); 
     padding:36px; background:var(--bg-panel); 
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* UI Touch */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
   }
-  .xp-panel:hover { transform: translate(-4px, -4px); box-shadow: 6px 6px 0 var(--yellow); } /* UI Touch */
+  .xp-panel:hover { transform: translate(-4px, -4px); box-shadow: 6px 6px 0 var(--yellow); }
 
   .xp-role{ font-family:var(--display); font-weight:600; font-size:1.6rem; text-transform:uppercase; line-height:1.05; }
   .xp-org{ font-family:var(--mono); font-size:11.5px; color:var(--ink-soft); margin-top:10px; }
@@ -231,10 +233,10 @@
   .proj-row{
     display:grid; grid-template-columns:70px 1fr 1.3fr; gap:30px; padding:30px 15px; 
     border-bottom:1px solid var(--border-strong); align-items:start;
-    transition: background 0.3s ease, padding-left 0.3s ease; /* UI Touch */
+    transition: background 0.3s ease, padding-left 0.3s ease; 
     border-left: 0px solid var(--yellow);
   }
-  .proj-row:hover { background: rgba(237, 210, 46, 0.1); border-left: 6px solid var(--yellow); padding-left: 20px; } /* UI Touch */
+  .proj-row:hover { background: rgba(237, 210, 46, 0.1); border-left: 6px solid var(--yellow); padding-left: 20px; }
   
   .proj-idx{ font-family:var(--mono); font-size:12px; color:var(--ink-faint); padding-top:4px; }
   .proj-name h3{ font-family:var(--display); font-weight:600; font-size:1.7rem; text-transform:uppercase; line-height:0.95; }
@@ -247,11 +249,11 @@
   /* ---- RANKINGS ---- */
   .stat-strip{ display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--border-strong); margin-bottom:26px; }
   .stat-cell{ padding:28px 22px; border-right:1px solid var(--border-strong); transition: background 0.3s ease; }
-  .stat-cell:hover { background: var(--yellow); } /* UI Touch */
+  .stat-cell:hover { background: var(--yellow); }
   .stat-cell:last-child{ border-right:none; }
   .stat-cell .n{ font-family:var(--display); font-weight:700; font-size:clamp(1.8rem,3.2vw,2.6rem); }
   .stat-cell .n .y{ color:var(--yellow); -webkit-text-stroke:0.6px var(--ink); }
-  .stat-cell:hover .n .y { color: var(--cream); } /* UI Touch */
+  .stat-cell:hover .n .y { color: var(--cream); }
   .stat-cell .l{ font-family:var(--mono); font-size:10px; color:var(--ink-soft); margin-top:6px; letter-spacing:0.02em; }
 
   .rank-strip{ display:grid; grid-template-columns:repeat(3,1fr); border:1px solid var(--border-strong); }
@@ -268,7 +270,7 @@
   /* ---- SKILLS ---- */
   .skill-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--border-strong); border:1px solid var(--border-strong); }
   .skill-cell{ background:var(--bg); padding:30px 32px; transition: transform 0.2s ease, box-shadow 0.2s ease;}
-  .skill-cell:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--border-strong); z-index: 2; position: relative; } /* UI Touch */
+  .skill-cell:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--border-strong); z-index: 2; position: relative; }
   .skill-cell .k{ font-family:var(--mono); font-size:10.5px; color:var(--yellow); background:var(--dark); display:inline-block; padding:4px 9px; margin-bottom:16px; letter-spacing:0.04em; }
   .chip-row{ display:flex; flex-wrap:wrap; gap:8px; }
   .chip{ font-family:var(--mono); font-size:12px; border:1px solid var(--border-strong); padding:7px 13px; color:var(--ink); transition:all .2s ease; cursor: default; }
@@ -293,7 +295,7 @@
     display:flex; justify-content:space-between; align-items:center; padding:16px 0; border-bottom:1px solid var(--border-strong);
     font-family:var(--mono); font-size:13px; transition:background .2s ease, padding .2s ease;
   }
-  .contact-list a:hover{ background:var(--dark); color:var(--yellow); padding-left:16px; padding-right:16px; } /* UI Touch */
+  .contact-list a:hover{ background:var(--dark); color:var(--yellow); padding-left:16px; padding-right:16px; } 
   .contact-list a .arrow{ color:var(--yellow); }
 
   /* ---- REVEAL ---- */
@@ -406,7 +408,7 @@
       </svg>
       <div class="thumb-card">
         <div class="thumb-img" id="commitGraph"></div>
-        <div class="thumb-text"><b>COMMIT ACTIVITY</b>LAST 12 MO<br>REPO: TRANSMOGRIFY-CELL</div>
+        <div class="thumb-text"><b>AUTONOMOUS COMMIT SNAKE</b>GENERATING CONTRIBUTIONS<br>REPO: TRANSMOGRIFY-CELL</div>
       </div>
       <div class="hero-cta">
         <div class="k">OPEN<br>TO WORK</div>
@@ -600,19 +602,19 @@
 </div>
 
 <script>
-  // mobile sidebar toggle
+  // Mobile sidebar toggle
   const navToggle = document.getElementById('navToggle');
   const sidebar = document.getElementById('sidebar');
   navToggle.addEventListener('click', () => sidebar.classList.toggle('open'));
   sidebar.querySelectorAll('a').forEach(a => a.addEventListener('click', () => sidebar.classList.remove('open')));
 
-  // scroll reveal
+  // Scroll reveal
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
   }, { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  // rank underline fill
+  // Rank underline fill
   const barIO = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if(e.isIntersecting){ e.target.style.width = e.target.dataset.w + '%'; barIO.unobserve(e.target); }
@@ -620,14 +622,104 @@
   }, { threshold: 0.4 });
   document.querySelectorAll('.rank-underline i').forEach(el => barIO.observe(el));
 
-  // commit-activity mini graph
+  // AI-Driven Autonomous Snake Game (GitHub Commit Vibe)
   const graph = document.getElementById('commitGraph');
-  for(let i=0;i<35;i++){
-    const cell = document.createElement('i');
-    const o = [0.12,0.12,0.25,0.4,0.7,1][Math.floor(Math.random()*6)];
-    cell.style.opacity = o;
+  const GRID = 7;
+  const TOTAL = GRID * GRID;
+  let snake = [24, 23, 22]; // Center start
+  let food = null;
+  let cells = [];
+
+  // Generate 7x7 grid
+  for(let i=0; i<TOTAL; i++){
+    let cell = document.createElement('i');
+    // Pre-assign random commit opacities for the background
+    let baseOpacity = [0.1, 0.15, 0.2, 0.3, 0.4][Math.floor(Math.random() * 5)];
+    cell.dataset.base = baseOpacity;
+    cell.style.opacity = baseOpacity;
     graph.appendChild(cell);
+    cells.push(cell);
   }
+
+  function spawnFood() {
+    let empty = [];
+    for(let i=0; i<TOTAL; i++) {
+      if(!snake.includes(i)) empty.push(i);
+    }
+    food = empty[Math.floor(Math.random() * empty.length)];
+  }
+  
+  function getValidMoves(head) {
+    let moves = [];
+    let tempSnake = snake.slice(0, -1); // Tail will move, so it's safe to enter
+    
+    // Check bounds and collisions
+    if (head % GRID !== 0 && !tempSnake.includes(head - 1)) moves.push(-1); // Left
+    if (head % GRID !== GRID - 1 && !tempSnake.includes(head + 1)) moves.push(1); // Right
+    if (head >= GRID && !tempSnake.includes(head - GRID)) moves.push(-GRID); // Up
+    if (head < TOTAL - GRID && !tempSnake.includes(head + GRID)) moves.push(GRID); // Down
+    return moves;
+  }
+
+  function stepSnake() {
+    let head = snake[0];
+    let moves = getValidMoves(head);
+    
+    if (moves.length === 0) {
+      // Snake is trapped (game over), reset AI
+      snake = [24, 23, 22];
+      spawnFood();
+      return;
+    }
+
+    // AI Logic: Greedy pathfinding to food
+    let foodX = food % GRID, foodY = Math.floor(food / GRID);
+    let bestMove = moves[0];
+    let minDist = 999;
+
+    for (let m of moves) {
+      let next = head + m;
+      let nx = next % GRID, ny = Math.floor(next / GRID);
+      let dist = Math.abs(nx - foodX) + Math.abs(ny - foodY);
+      
+      if (dist < minDist) {
+        minDist = dist;
+        bestMove = m;
+      }
+    }
+
+    // Execute Move
+    let newHead = head + bestMove;
+    snake.unshift(newHead);
+
+    if (newHead === food) {
+      spawnFood(); // Grow and spawn new food
+    } else {
+      snake.pop(); // Remove tail
+    }
+    drawSnake();
+  }
+
+  function drawSnake() {
+    // Reset board to base opacities
+    cells.forEach(c => {
+      c.className = '';
+      c.style.opacity = c.dataset.base;
+    });
+
+    // Draw snake body
+    snake.forEach((s, i) => {
+      cells[s].className = i === 0 ? 'head' : 'snake';
+      cells[s].style.opacity = ''; // CSS class takes over
+    });
+
+    // Draw food
+    cells[food].className = 'food';
+    cells[food].style.opacity = ''; // CSS class takes over
+  }
+
+  spawnFood();
+  setInterval(stepSnake, 250); // Runs 4 times a second
 </script>
 
 </body>
