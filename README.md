@@ -14,8 +14,8 @@
 
 
 
-### 🐍 Autonomous Contribution Snake
-*A greedy algorithm eating my daily commits.*
+### 🐍 Snake
+* eating my daily commits.*
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/transmogrify-cell/transmogrify-cell/output/github-contribution-grid-snake-dark.svg">
