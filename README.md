@@ -1,25 +1,45 @@
 
-[![GitHub followers](https://img.shields.io/github/followers/transmogrify-cell?style=for-the-badge&logo=github&color=00FF41&labelColor=000000)](https://github.com/transmogrify-cell)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00FF41?style=for-the-badge&logo=linkedin&labelColor=000000)](https://www.linkedin.com/in/himanshu-chandela-5947a6212/)
-[![Gmail](https://img.shields.io/badge/Email-Contact-00FF41?style=for-the-badge&logo=gmail&labelColor=000000)](mailto:himanshuchandela15@gmail.com)
-
----
-
-# 🟢 THE CHOSEN ONE
-
+### 💻 Programming Languages
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHh2eG1lZ3R6bG5ldnJ2ZnZqenJ0eWp1bHl5dmd4eG5sZXh4aHN3aSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/077i7A8qE6x6I/giphy.gif" width="200" alt="Matrix Neo"/>
+
+![C++](https://img.shields.io/badge/C++-Advanced-00FF41?style=for-the-badge&logo=cplusplus&logoColor=00FF41&labelColor=000000)
+![Java](https://img.shields.io/badge/Java-Advanced-00FF41?style=for-the-badge&logo=java&logoColor=00FF41&labelColor=000000)
+![Python](https://img.shields.io/badge/Python-Advanced-00FF41?style=for-the-badge&logo=python&logoColor=00FF41&labelColor=000000)
+![SQL](https://img.shields.io/badge/SQL-Expert-00FF41?style=for-the-badge&logo=mysql&logoColor=00FF41&labelColor=000000)
+
 </div>
 
-### 💊 Red Pill: Stay in the Matrix | 💊 Blue Pill: Explore My Code
+### 🏗️ Backend & Architecture
+<div align="center">
 
-**I chose the Red Pill... Here's what I found:**
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Master-00FF41?style=for-the-badge&logo=springboot&logoColor=00FF41&labelColor=000000)
+![Microservices](https://img.shields.io/badge/Microservices-Expert-00FF41?style=for-the-badge&logo=dotnet&logoColor=00FF41&labelColor=000000)
+![REST_APIs](https://img.shields.io/badge/REST_APIs-Expert-00FF41?style=for-the-badge&logo=postman&logoColor=00FF41&labelColor=000000)
 
-📍 **New Delhi, India**
-📞 **+91 7011832301**
-🎓 **B.Tech IT @ NSUT Delhi**
-💻 **Backend Developer | Data Analyst**
+</div>
+
+### ☁️ Cloud & DevOps
+<div align="center">
+
+![Docker](https://img.shields.io/badge/Docker-Intermediate-00FF41?style=for-the-badge&logo=docker&logoColor=00FF41&labelColor=000000)
+![AWS](https://img.shields.io/badge/AWS-Intermediate-00FF41?style=for-the-badge&logo=amazonaws&logoColor=00FF41&labelColor=000000)
+![Git](https://img.shields.io/badge/Git-Advanced-00FF41?style=for-the-badge&logo=git&logoColor=00FF41&labelColor=000000)
+![Linux](https://img.shields.io/badge/Linux-Advanced-00FF41?style=for-the-badge&logo=linux&logoColor=00FF41&labelColor=000000)
+
+</div>
+
+### 🧠 AI & Data Science
+<div align="center">
+
+![PyTorch](https://img.shields.io/badge/PyTorch-Intermediate-00FF41?style=for-the-badge&logo=pytorch&logoColor=00FF41&labelColor=000000)
+![XGBoost](https://img.shields.io/badge/XGBoost-Advanced-00FF41?style=for-the-badge&logo=xgboost&logoColor=00FF41&labelColor=000000)
+![Scikit_Learn](https://img.shields.io/badge/Scikit_Learn-Advanced-00FF41?style=for-the-badge&logo=scikit-learn&logoColor=00FF41&labelColor=000000)
+
+</div>
 
 ---
 
-# 🟢 SKILLS MATRIX
+# 🟢 THE TRAINING PROGRAMS
+
+### 🏢 Edunet Foundation (Microsoft & SAP TechSaksham)
+**Data Analytics Intern** | *Nov 2024 - Dec 2024*
