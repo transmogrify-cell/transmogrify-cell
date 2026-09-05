@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Hi there, I'm Himanshu Chandela! <img src="https://media.tenor.com/tHqgU6PqLgwAAAAi/duck-waving.gif" width="35" alt="Waving Duck"/></h1>
+  <h1>Hi there, I'm Himanshu Chandela! </h1>
   
-  <img src="https://i.gifer.com/XOsX.gif" width="100%" height="150" style="object-fit: cover; border-radius: 8px;" alt="Matrix Background"/>
+
 
   <br/>
 
@@ -12,7 +12,7 @@
 
 ---
 
-### 🐍 
+###  
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/transmogrify-cell/transmogrify-cell/output/github-contribution-grid-snake-dark.svg">
