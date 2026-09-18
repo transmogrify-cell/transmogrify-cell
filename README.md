@@ -21,19 +21,7 @@
   <sub>Software Engineer &mdash; deep learning with TensorFlow / Keras, algorithms in C++. Knight @ LeetCode, Specialist @ Codeforces.</sub>
 </div>
 
-<div align="center">
-  <a href="#-stack"><img src="https://img.shields.io/badge/Stack-7C5CFF?style=for-the-badge&labelColor=0B1020" alt="Stack" /></a>
-  <a href="#-stats"><img src="https://img.shields.io/badge/Stats-22D3EE?style=for-the-badge&labelColor=0B1020" alt="Stats" /></a>
-  <a href="#-competitive"><img src="https://img.shields.io/badge/Competitive-F472B6?style=for-the-badge&labelColor=0B1020" alt="Competitive Programming" /></a>
-  <a href="#-projects"><img src="https://img.shields.io/badge/Projects-34D399?style=for-the-badge&labelColor=0B1020" alt="Projects" /></a>
-  <a href="#-connect"><img src="https://img.shields.io/badge/Connect-5B8DEF?style=for-the-badge&labelColor=0B1020" alt="Connect" /></a>
-</div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=transmogrify-cell&label=PROFILE+VIEWS&color=7C5CFF&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/transmogrify-cell?style=for-the-badge&labelColor=0B1020&color=22D3EE&logo=github&logoColor=white" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/transmogrify-cell?style=for-the-badge&labelColor=0B1020&color=F472B6&logo=github&logoColor=white" alt="Stars" />
-</div>
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
