@@ -121,8 +121,8 @@
 <td width="52%" valign="top" align="center">
 
 <!-- LeetCode card - theme options: dark, nord, unicorn, forest, wtf -->
-<a href="https://leetcode.com/u/transmogrify-cell/">
-  <img src="https://leetcard.jacoblin.cool/transmogrify-cell?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=16" alt="LeetCode stats" width="100%" />
+<a href="https://leetcode.com/u/cogentHeisnberg/">
+  <img src="https://leetcard.jacoblin.cool/cogentHeisnberg?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=16" alt="LeetCode stats" width="100%" />
 </a>
 
 </td>
@@ -132,9 +132,15 @@
 
 **Codeforces**
 
-<!-- These two read the live rating straight from the Codeforces API via shields.io -->
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3Dtransmogrify-cell&query=%24.result%5B0%5D.rating&label=RATING&style=for-the-badge&labelColor=0B1020&color=22D3EE&logo=codeforces&logoColor=white" alt="Codeforces rating" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3Dtransmogrify-cell&query=%24.result%5B0%5D.maxRating&label=MAX&style=for-the-badge&labelColor=0B1020&color=7C5CFF&logo=codeforces&logoColor=white" alt="Codeforces max rating" />
+<!--
+  The two live Codeforces badges (RATING / MAX) were removed because they read
+  the Codeforces API for the handle `transmogrify-cell`, which does not exist
+  there, so they rendered as INVALID. Swap HANDLE below for your real handle
+  and uncomment to bring them back.
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DHANDLE&query=%24.result%5B0%5D.rating&label=RATING&style=for-the-badge&labelColor=0B1020&color=22D3EE&logo=codeforces&logoColor=white" alt="Codeforces rating" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DHANDLE&query=%24.result%5B0%5D.maxRating&label=MAX&style=for-the-badge&labelColor=0B1020&color=7C5CFF&logo=codeforces&logoColor=white" alt="Codeforces max rating" />
+-->
 <img src="https://img.shields.io/badge/RANK-Specialist-F472B6?style=for-the-badge&labelColor=0B1020" alt="Codeforces rank" />
 
 **LeetCode**
@@ -228,8 +234,8 @@ without per-character labels.
 <div align="center">
 
 <a href="https://github.com/transmogrify-cell"><img src="https://img.shields.io/badge/GitHub-0B1020?style=for-the-badge&logo=github&logoColor=E8ECF8" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/transmogrify-cell/"><img src="https://img.shields.io/badge/LinkedIn-5B8DEF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1020" alt="LinkedIn" /></a>
-<a href="https://leetcode.com/u/transmogrify-cell/"><img src="https://img.shields.io/badge/LeetCode-FBBF24?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0B1020" alt="LeetCode" /></a>
+<a href="https://www.linkedin.com/in/himanshu-chandela-5947a6212/"><img src="https://img.shields.io/badge/LinkedIn-5B8DEF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1020" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/cogentHeisnberg/"><img src="https://img.shields.io/badge/LeetCode-FBBF24?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0B1020" alt="LeetCode" /></a>
 <a href="https://codeforces.com/profile/transmogrify-cell"><img src="https://img.shields.io/badge/Codeforces-22D3EE?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0B1020" alt="Codeforces" /></a>
 <a href="https://x.com/transmogrify_cell"><img src="https://img.shields.io/badge/X-7C5CFF?style=for-the-badge&logo=x&logoColor=white&labelColor=0B1020" alt="X" /></a>
 <a href="mailto:hello@example.com"><img src="https://img.shields.io/badge/Email-F472B6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Email" /></a>
