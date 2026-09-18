@@ -47,37 +47,6 @@
 
 <div align="center">
 
-**Languages**
-
-<img src="https://img.shields.io/badge/C%2B%2B-7C5CFF?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0B1020" alt="C++" />
-<img src="https://img.shields.io/badge/Python-22D3EE?style=for-the-badge&logo=python&logoColor=white&labelColor=0B1020" alt="Python" />
-<img src="https://img.shields.io/badge/C-5B8DEF?style=for-the-badge&logo=c&logoColor=white&labelColor=0B1020" alt="C" />
-<img src="https://img.shields.io/badge/SQL-F472B6?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0B1020" alt="SQL" />
-<img src="https://img.shields.io/badge/Bash-34D399?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=0B1020" alt="Bash" />
-
-**Machine Learning**
-
-<img src="https://img.shields.io/badge/TensorFlow-7C5CFF?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0B1020" alt="TensorFlow" />
-<img src="https://img.shields.io/badge/Keras-F472B6?style=for-the-badge&logo=keras&logoColor=white&labelColor=0B1020" alt="Keras" />
-<img src="https://img.shields.io/badge/NumPy-22D3EE?style=for-the-badge&logo=numpy&logoColor=white&labelColor=0B1020" alt="NumPy" />
-<img src="https://img.shields.io/badge/Pandas-5B8DEF?style=for-the-badge&logo=pandas&logoColor=white&labelColor=0B1020" alt="Pandas" />
-<img src="https://img.shields.io/badge/OpenCV-34D399?style=for-the-badge&logo=opencv&logoColor=white&labelColor=0B1020" alt="OpenCV" />
-<img src="https://img.shields.io/badge/Matplotlib-7C5CFF?style=for-the-badge&logo=plotly&logoColor=white&labelColor=0B1020" alt="Matplotlib" />
-
-**Tools**
-
-<img src="https://img.shields.io/badge/Git-F472B6?style=for-the-badge&logo=git&logoColor=white&labelColor=0B1020" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="GitHub" />
-<img src="https://img.shields.io/badge/Linux-FBBF24?style=for-the-badge&logo=linux&logoColor=white&labelColor=0B1020" alt="Linux" />
-<img src="https://img.shields.io/badge/VS%20Code-5B8DEF?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=0B1020" alt="VS Code" />
-<img src="https://img.shields.io/badge/Colab-7C5CFF?style=for-the-badge&logo=googlecolab&logoColor=white&labelColor=0B1020" alt="Google Colab" />
-<img src="https://img.shields.io/badge/Jupyter-34D399?style=for-the-badge&logo=jupyter&logoColor=white&labelColor=0B1020" alt="Jupyter" />
-
-</div>
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-<a id="-stats"></a>
 
 
 ### &nbsp;&nbsp;Pac-Man is eating my contributions
