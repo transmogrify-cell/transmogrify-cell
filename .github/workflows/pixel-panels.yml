@@ -1,0 +1,52 @@
+name: pixel panels
+
+# Rebuilds the two live README panels (achievements, activity) from the GitHub
+# and LeetCode APIs and publishes them to the `output` branch, which the
+# README reads. Replaces the old Pac-Man workflow that wrote to the same branch.
+on:
+  schedule:
+    - cron: "23 1 * * *" # daily, 01:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - "data/**"
+      - ".github/workflows/pixel-panels.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pixel-panels
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Build live panels
+        run: node tools/build.mjs --live
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+
+      # A fresh one-commit branch each run, so `output` never grows a history.
+      - name: Publish to the output branch
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git add achievements.svg activity.svg
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "Update live pixel panels"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
